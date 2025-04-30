@@ -1,0 +1,109 @@
+body {
+
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+
+  background: linear-gradient(to bottom, #7ec0ee, #1ca3ec);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  margin: 0;
+
+  overflow: hidden;
+
+}
+
+.weather-app {
+
+  background: #fefae0;
+
+  padding: 30px 40px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+  text-align: center;
+
+  width: 90%;
+
+  max-width: 400px;
+
+  position: relative;
+
+}
+
+.weather-app h1 {
+
+  color: #ffb703;
+
+  margin-bottom: 10px;
+
+  font-size: 2.5em;
+
+}
+
+input {
+
+  padding: 12px;
+
+  width: 80%;
+
+  margin: 15px 0;
+
+  border: 2px solid #8ecae6;
+
+  border-radius: 10px;
+
+  font-size: 1em;
+
+}
+
+button {
+
+  padding: 12px 25px;
+
+  background: #fb8500;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-size: 1em;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+
+}
+
+button:hover {
+
+  background: #ff6700;
+
+}
+
+#weatherResult {
+
+  margin-top: 20px;
+
+  font-size: 1.1em;
+
+}
+
+.spongebob {
+
+  width: 100px;
+
+  height: auto;
+
+  margin-bottom: 15px;
+
+}
